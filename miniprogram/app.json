@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/upload/index"
+   
+    
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00b26a",
+    "navigationBarTitleText": "云开发",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666",
+    "borderStyle": "black",
+    "selectedColor": "#00b26a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/upload/index",
+        "text": "上传",
+        "iconPath": "icons/upload.png",
+        "selectedIconPath": "icons/upload-o.png"
+      }
+    ]
+  }
+}

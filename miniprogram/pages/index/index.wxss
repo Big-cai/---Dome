@@ -1,0 +1,11 @@
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1rpx solid #ccc;
+  padding: 15rpx 20rpx;
+}
+image{
+  width: 150rpx;
+  height: 150rpx;
+}

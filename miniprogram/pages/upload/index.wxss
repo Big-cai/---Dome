@@ -1,0 +1,7 @@
+page{
+  background-color: #ccc;
+  text-align: center;
+}
+.inp_wrap{
+  padding: 20rpx;
+}

@@ -1,0 +1,19 @@
+<view class="inp_wrap">
+  
+  <van-cell-group>
+    <van-field
+      value="{{ name }}"
+      placeholder="请输入用户名"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+</view>
+<!-- 选择上传图片 -->
+<view class="upload">
+  <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" />
+</view>
+
+<!-- 点击按钮上传 -->
+<view class="but">
+  <van-button type="primary" size="large" bind:tap="handleUpload">上传图片</van-button>
+</view>
